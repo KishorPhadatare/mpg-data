@@ -4,15 +4,15 @@
    “mpg.data.txt” provides 398 rows of data. 
 
 2. The data columns include:
-   -Y. mpg: miles per gallon continuous
-   -X1. cyl: number of cylinders multi-valued discrete
-   -X2. disp: engine displacement continuous
-   -X3. hpwr: horsepower continuous
-   -X4. wght: weight of car continuous
-   -X5. accl: acceleration continuous
-   -X6. yr: model year multi-valued discrete
-   -X7. org: origin multi-valued discrete
-   -X8. car: car name string (unique for each instance)
+   - Y. mpg: miles per gallon continuous
+   - X1. cyl: number of cylinders multi-valued discrete
+   - X2. disp: engine displacement continuous
+   - X3. hpwr: horsepower continuous
+   - X4. wght: weight of car continuous
+   - X5. accl: acceleration continuous
+   - X6. yr: model year multi-valued discrete
+   - X7. org: origin multi-valued discrete
+   - X8. car: car name string (unique for each instance)
 3. We seek a model of the form:
       Y = B0 + B1 * X1 + B2 * X2 + ….. B7 * X7
 4. Complete the analysis using 2 of the following tools (R, SAS, or Excel). Perform the following
